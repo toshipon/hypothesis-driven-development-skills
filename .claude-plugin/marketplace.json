@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "hdd",
+  "description": "Hypothesis-Driven Development — プロダクト開発に仮説検証を強制する Claude Code プラグイン集。feature 開発・チケット作成時に仮説と検証計画を必須化する。",
+  "owner": {
+    "name": "toshipon",
+    "url": "https://github.com/toshipon"
+  },
+  "plugins": [
+    {
+      "name": "hdd",
+      "description": "仮説検証駆動開発を強制するプラグイン。/hdd:grill で仮説を問い詰め、/hdd:issue で仮説・検証チェックリスト付きチケットを作成し、/hdd:data-infra で検証用データ収集基盤を設計する。トラッカー非依存（GitHub Issues / JIRA / Linear / 任意の MCP）。",
+      "version": "0.1.0",
+      "author": {
+        "name": "toshipon",
+        "email": "toshipon123@gmail.com"
+      },
+      "source": "./plugin",
+      "category": "productivity"
+    }
+  ]
+}
