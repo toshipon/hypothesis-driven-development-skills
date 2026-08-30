@@ -66,6 +66,7 @@ claude plugin install hdd@hdd
 | `issue-hypothesis-gate` | あらゆる手段でのチケット作成 | 本文をチェックリストで検査し、仮説セクションの追記案を提示 |
 | `verification-methods` | 検証手法の選定場面 | 9 つの検証手法カタログと選定マトリクスを提供 |
 | `data-collection-design` | 計測・データ収集の設計場面 | イベント設計原則、指標ツリー、AI アクセス経路の設計パターンを提供 |
+| `moat-test` | 新機能・新アイデア・プロダクト構想の評価、「これは Moat になるか」の問い | AI 時代の競争優位判定。Claude Test（3 か月でコピーできるか）→ Foundation Model Test（LLM が 10 倍賢くなったら価値が下がるか）→ Moat 7 源泉マップ → Outcome Data 設計 → System of Action での位置づけ → 断定しない出力か、を順に問い、Go / Kill ボードに貼れる形で出力する（[解説記事](https://zenn.dev/toshipon/articles/moat-test-skill-for-ai-era)） |
 
 ### Hooks（最終ライン）
 
