@@ -1,6 +1,6 @@
 {
   "name": "hdd",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Hypothesis-Driven Development — プロダクト開発に仮説検証を強制するプラグイン。feature 開発・チケット作成時に仮説と検証計画を必須化し、検証のためのデータ収集基盤づくりまで支援する。PdM とプロダクトエンジニア向け。トラッカー非依存。",
   "author": {
     "name": "toshipon",
