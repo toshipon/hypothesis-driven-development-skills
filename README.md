@@ -67,6 +67,8 @@ claude plugin install hdd@hdd
 | `verification-methods` | 検証手法の選定場面 | 9 つの検証手法カタログと選定マトリクスを提供 |
 | `data-collection-design` | 計測・データ収集の設計場面 | イベント設計原則、指標ツリー、AI アクセス経路の設計パターンを提供 |
 | `moat-test` | 新機能・新アイデア・プロダクト構想の評価、「これは Moat になるか」の問い | AI 時代の競争優位判定。Claude Test（3 か月でコピーできるか）→ Foundation Model Test（LLM が 10 倍賢くなったら価値が下がるか）→ Moat 7 源泉マップ → Outcome Data 設計 → System of Action での位置づけ → 断定しない出力か、を順に問い、Go / Kill ボードに貼れる形で出力する（[解説記事](https://zenn.dev/toshipon/articles/moat-test-skill-for-ai-era)） |
+| `source-traceability` | 調査・市場分析・DD・制度調査ドキュメントの作成 | 出典を sources.md に集約し `[S1]` `[M1]` 番号で参照。一次/二次情報を分離し、二次情報のみの断定を「要確認」に落とす。絶対日付を強制 |
+| `graded-assertions` | 判定・可否・診断・予測を返すドキュメントや機能の作成 | 結論を「確定 / 推定 / 未確認」に三分割し、要確認リスト + 免責をセットで出力。判定機能の出力スキーマ設計にも適用 |
 
 ### Hooks（最終ライン）
 
