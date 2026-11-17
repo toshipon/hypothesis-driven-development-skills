@@ -11,7 +11,7 @@ argument-hint: "[省略可]"
 
 `docs/hypotheses/*.md`（`README.md` と `LEARNINGS.md` を除く）を全て読み、各カードの frontmatter（`id` / `status` / `created` / `owner` / `related_issues`）と検証計画テーブルの「期限」「検証手法」、検証結果セクションの「実施日」を抽出する。
 
-カードが 1 件も無い場合は「仮説カードがまだありません。`/hdd:grill` または `/hdd:issue` から始めてください」とだけ出力して終了する。
+カードが 1 件も無い場合は「仮説カードがまだありません。`/hdd:grilling` または `/hdd:issue` から始めてください」とだけ出力して終了する。
 
 ## Step 2: ステータス別集計
 

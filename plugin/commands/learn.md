@@ -75,7 +75,7 @@ argument-hint: "[仮説カードのパス or ID / issue 番号]（省略時は�
    - `invalidated`（棄却）→ `status: invalidated`
    - `pause` → `status` は `verifying` のまま維持し、コメントで保留理由を残す
    - `pivot`/`kill` で撤回する場合 → `status: withdrawn`
-3. `pivot`/`kill` で新しい仮説の種が出た場合、新規仮説カード作成のために `/hdd:issue` または `/hdd:grill` の実行を提案する（このコマンド自身は新規カードを作らない）
+3. `pivot`/`kill` で新しい仮説の種が出た場合、新規仮説カード作成のために `/hdd:issue` または `/hdd:grilling` の実行を提案する（このコマンド自身は新規カードを作らない）
 
 ## Step 6: LEARNINGS.md への追記
 

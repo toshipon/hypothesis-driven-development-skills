@@ -4,7 +4,7 @@
 
 対象は PdM とプロダクトエンジニア。特定のプロダクト管理ツールに依存せず、GitHub Issues / JIRA / Linear / 任意の MCP ツール / ただの markdown ファイルのどれでも動きます。
 
-> **HDD (Hypothesis-Driven Development)** is a Claude Code plugin that forces hypothesis validation into your product development workflow. It interrogates your hypotheses before you build (`/hdd:grill`), gates ticket creation with a hypothesis-verification checklist (hooks + skills), and helps you design the data-collection infrastructure (read-only APIs / MCP servers) that lets AI agents verify outcomes autonomously. Tracker-agnostic: works with GitHub Issues, JIRA, Linear, any MCP tool, or plain markdown files.
+> **HDD (Hypothesis-Driven Development)** is a Claude Code plugin that forces hypothesis validation into your product development workflow. It interrogates your hypotheses before you build (`/hdd:grilling`), gates ticket creation with a hypothesis-verification checklist (hooks + skills), and helps you design the data-collection infrastructure (read-only APIs / MCP servers) that lets AI agents verify outcomes autonomously. Tracker-agnostic: works with GitHub Issues, JIRA, Linear, any MCP tool, or plain markdown files.
 
 ## 思想
 
@@ -34,7 +34,7 @@ claude plugin install hdd@hdd
 
 ```
 /hdd:init          # プロジェクトに HDD をセットアップ（docs/hypotheses/ 作成、トラッカー検出）
-/hdd:grill 新機能のアイデア   # 仮説を問い詰めて仮説カードに落とし込む
+/hdd:grilling 新機能のアイデア   # 仮説を問い詰めて仮説カードに落とし込む
 /hdd:issue         # 仮説・検証チェックリスト付きでチケット化
 # ... 実装（計測イベントの仕込み込み）...
 /hdd:verify        # 検証計画の設計・実施記録
@@ -46,7 +46,7 @@ claude plugin install hdd@hdd
 | コマンド | 説明 |
 |---|---|
 | `/hdd:init` | プロジェクトへのセットアップ。`docs/hypotheses/` の作成、トラッカー検出、GitHub issue テンプレートの設置 |
-| `/hdd:grill` | 仮説の問い詰め。課題の実在性 → 解決策の妥当性 → 価値 → 検証計画の 4 フェーズで決定木に沿って質問し、仮説カードを完成させる |
+| `/hdd:grilling` | 仮説の問い詰め。課題の実在性 → 解決策の妥当性 → 価値 → 検証計画の 4 フェーズで決定木に沿って質問し、仮説カードを完成させる |
 | `/hdd:issue` | チケット作成。仮説・検証チェックリストを満たさないチケットはそのまま作らせない。Impact × Confidence × Risk ÷ Effort の優先度スコアで「本当に今やる価値があるか」も問う |
 | `/hdd:audit` | 既存チケット/バックログの一括監査。仮説の無いチケットを検出し、仮説ドラフトの追記を提案 |
 | `/hdd:verify` | 検証計画の設計。検証手法カタログから最小コストの手法を選定し、成功基準・撤退基準・計測方法を確定 |
