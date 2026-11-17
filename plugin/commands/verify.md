@@ -14,7 +14,7 @@ argument-hint: "[仮説カードのパス or ID / issue 番号]（省略時は�
 1. `$ARGUMENTS` が仮説カードのパスまたは ID（例: `007` や `docs/hypotheses/007-xxx.md`）ならそれを直接読む
 2. `$ARGUMENTS` が issue 番号や URL なら、トラッカー（gh CLI / MCP ツール）から本文を取得し、紐づく仮説カードを `related_issues` から逆引きする
 3. `$ARGUMENTS` が空なら、直近の会話文脈で言及された feature、または `docs/hypotheses/` を走査して `status: draft` または `status: verifying` のカードを一覧提示し、ユーザーに選ばせる
-4. 対象の仮説カードが存在しない場合は、`/hdd:grill` で仮説化してから戻ってくるよう提案し、ここで終了する
+4. 対象の仮説カードが存在しない場合は、`/hdd:grilling` で仮説化してから戻ってくるよう提案し、ここで終了する
 
 対象を特定したら、課題仮説・解決仮説・価値仮説のうち **どれの確度を上げたいか** をユーザーに確認する（複数可）。
 
